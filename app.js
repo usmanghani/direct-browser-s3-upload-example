@@ -36,7 +36,7 @@ function handleFileSelect(evt)
 function executeOnSignedUrl(file, callback)
 {
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'signput.php?name=' + file.name + '&type=' + file.type, true);
+  xhr.open('GET', 'signput?name=' + file.name + '&type=' + file.type, true);
 
   // Hack to pass bytes through unprocessed.
   xhr.overrideMimeType('text/plain; charset=x-user-defined');

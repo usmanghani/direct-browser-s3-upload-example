@@ -3,9 +3,9 @@ require 'base64'
 require 'openssl'
 require 'cgi'
 
-S3_KEY='S3 key here'
-S3_SECRET='S3 secret here'
-S3_BUCKET='/uploadtestbucket'
+S3_KEY='AKIAJU4YE4IKJCXOXAGQ'
+S3_SECRET='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'
+S3_BUCKET='/testingsyedstuff'
 
 EXPIRE_TIME=(60 * 5) # 5 minutes
 S3_URL='http://s3.amazonaws.com'
